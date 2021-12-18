@@ -1,0 +1,57 @@
+html {
+    font-family: $primary--font;
+    font-size: 10px;
+    color: $text-dark;
+    // scroll-behavior: smooth;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    &--primary {
+        background-color: $primary--color;
+        color: #fff;
+    }
+    &--secondary {
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: $primary--color;
+        p {
+            color: $primary--color;
+            margin: 0 !important;
+        }
+        ion-icon {
+            font-size: 16px;
+            margin-left: 16px;
+        }
+    }
+    &--third {
+        border: 1px solid #fff;
+        color: #fff;
+    }
+    &--cricle {
+        display: block;
+        cursor: pointer;
+        border-radius: 100rem;
+        background-color: #fff;
+        width: 56px;
+        height: 56px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+        ion-icon {
+            color: $text-dark;
+            font-size: 16px;
+        }
+    }
+}

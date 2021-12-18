@@ -1,0 +1,78 @@
+.truly {
+    margin-top: $margin-section;
+    &__title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 75px;
+        text-align: center;
+    }
+    &__fistContent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &__content {
+            width: 31%;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            .item {
+                padding: 32px;
+                border-radius: 5px;
+                background-color: #fff;
+                box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+                .title {
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: $text-dark;
+                    line-height: 1;
+                    margin-bottom: 15px;
+                }
+                .span {
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: $text-gray;
+                    line-height: 1.5;
+                }
+            }
+        }
+        &__sub--content {
+            width: 57.5%;
+            img {
+                border-radius: 15px;
+                box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+    &__secondContent {
+        margin-top: 45px;
+        display: flex;
+        justify-content: space-between;
+        .item {
+            width: 24%;
+            cursor: pointer;
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: all 0.2 ease;
+            &__title {
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 1;
+                margin: 24px 0;
+            }
+            &__content {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.5;
+                text-align: center;
+            }
+            &:hover {
+                box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.05);
+            }
+        }
+    }
+}

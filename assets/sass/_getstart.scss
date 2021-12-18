@@ -1,0 +1,21 @@
+.getstart {
+    margin-top: $margin-section;
+    background-color: $secondary--color;
+    color: #fff;
+    padding: 128px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+        font-size: 36px;
+        line-height: 1;
+        font-weight: 700;
+        margin-bottom: 56px;
+        text-align: center;
+    }
+    &__boxButton {
+        display: flex;
+        justify-content: center;
+        gap: 32px;
+    }
+}

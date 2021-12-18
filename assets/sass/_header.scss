@@ -1,0 +1,106 @@
+.header {
+    background-color: #f5faff;
+    .navicative {
+        padding: 30px 0;
+        display: flex;
+        align-items: center;
+        &__logo {
+            width: 112px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        &__links {
+            margin-left: 5.6em;
+            flex-grow: 1;
+            ul {
+                display: flex;
+                gap: 5.6em;
+                li a {
+                    font-size: 14px;
+                    font-weight: 400;
+                    text-transform: capitalize;
+                }
+            }
+        }
+        &__auth {
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+            .button--text {
+                font-weight: 400;
+                margin-right: 40px;
+            }
+        }
+    }
+    .banner {
+        display: flex;
+        margin-top: 175px;
+        &__content {
+            width: 38.75%;
+            margin-right: 62px;
+            h1 {
+                font-size: 48px;
+                font-weight: 700;
+                color: $text-dark;
+                line-height: 1.354;
+            }
+            p.span {
+                font-size: 16px;
+                font-weight: 400;
+                color: $text-gray;
+                line-height: 1.5;
+                margin: 32px 0 60px;
+            }
+            .button--box {
+                display: flex;
+            }
+        }
+        &__sub--content {
+            width: 60.15%;
+            height: 513px;
+            position: relative;
+            &--background {
+                position: absolute;
+                bottom: 0;
+                right: 23px;
+            }
+            .shape1 {
+                position: absolute;
+                top: 0;
+                left: 132px;
+            }
+            .shape2 {
+                position: absolute;
+                bottom: 135px;
+                right: 0;
+            }
+            .shape3 {
+                position: absolute;
+                bottom: 40px;
+                left: -51px;
+            }
+            .shape4 {
+                position: absolute;
+                right: 108px;
+                top: 85px;
+                box-shadow: 0px 40px 60px rgba(38, 138, 230, 0.2);
+            }
+            .shape5 {
+                position: absolute;
+                left: 16px;
+                top: 195px;
+                box-shadow: 0px 40px 60px rgba(39, 174, 96, 0.2);
+            }
+            .shape6 {
+                position: absolute;
+                bottom: 40px;
+                right: 165px;
+                box-shadow: 0px 40px 60px rgba(241, 208, 35, 0.2);
+            }
+        }
+    }
+}

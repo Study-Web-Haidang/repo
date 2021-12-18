@@ -1,0 +1,31 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+    &__logo {
+        width: 164px;
+    }
+
+    .item {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .title {
+            line-height: 1;
+            font-size: 16px;
+            font-weight: 700;
+            color: $text-dark;
+            margin-bottom: 8px;
+        }
+        .span {
+            line-height: 1.5;
+            font-size: 16px;
+            font-weight: 400;
+            color: $text-gray;
+            margin-bottom: 8px;
+        }
+    }
+    &__contact {
+        max-width: 25%;
+    }
+}
